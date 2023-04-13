@@ -9,7 +9,7 @@ import (
 
 func Load(logger *zap.SugaredLogger) Settings {
 	var settings Settings
-	filePath := fmt.Sprintf("./.config/%s.json", "local")
+	filePath := fmt.Sprintf("./config/%s.json", "local")
 	fileBytes, err := os.ReadFile(filePath)
 
 	if err != nil {

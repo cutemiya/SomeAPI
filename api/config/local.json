@@ -1,0 +1,4 @@
+{
+  "port": 80,
+  "postgres": "postgres://cutemiya:password@localhost:5432/postgres?search_path=public&sslmode=disable"
+}
